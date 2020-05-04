@@ -4,11 +4,16 @@
  		 padding: 0;
 		}
 		p{
-			width: 80px;
-  			height: 20px;
+			width: 100px;
+  			height: 40px;
   			background-color: blue;
   			color: black;
   			border: 1px solid black;
+  			padding:10px;
+  			background-color: #A52A2A;
+  			position: relative;
+  			float: right;
+  			text-align: center;
 		}
 		section{
 			padding: 10px;
@@ -70,12 +75,15 @@
 				width: 100%
 			}
 		}
-		p#p1 {
-  					background-color: #A52A2A;
-  					position: relative;
-  					float: right;
-  					text-align: center;
-			}
 			section {
   				clear: right;
 			}
+		#p1{
+				background-color: orange;
+		}
+		#p2{
+				 background-color: red;
+		}
+		#p3{
+			background-color: pink;
+		}
